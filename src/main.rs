@@ -13,6 +13,7 @@ use windows::Win32::System::WindowsProgramming::GetUserNameA;
 
 fn main() {
     unsafe {
+
         println!("Hello, world!");
 
         let proc_handle = GetCurrentProcess();
